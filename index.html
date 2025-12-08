@@ -1,47 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://avatars.githubusercontent.com/u/37032091?s=48&v=4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guna - MERN Developer | AI & Data Science Enthusiast</title>
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/37032091?s=48&v=4"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://avatars.githubusercontent.com/u/37032091?s=48&v=4"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="logo-text"
+            >Guna's<span class="highlight">Portfolio</span></span
+          >
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <!-- <li><a href="#journey">Learning</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maintenance &#128525;</title>
-    <style>
-        body {
-            margin-top: 100px;
-        }
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="fade-in">
+            Hi, I'm <span class="gradient-text">Guna</span>
+          </h1>
+          <p class="subtitle fade-in-delay-1">Full Stack MERN Developer</p>
+          <p class="description fade-in-delay-2">
+            7+ years of crafting robust web applications, now expanding into the
+            exciting world of AI & Data Science
+          </p>
+          <div class="hero-buttons fade-in-delay-3">
+            <a href="mailto:guna.learn2016@gmail" class="btn btn-primary"
+              >Get In Touch</a
+            >
+            <!-- <a href="#experience" class="btn btn-secondary">View Work</a> -->
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="floating-card card-1">
+            <div class="card-icon">M</div>
+            <div class="card-label">MongoDB</div>
+          </div>
+          <div class="floating-card card-2">
+            <div class="card-icon">E</div>
+            <div class="card-label">Express</div>
+          </div>
+          <div class="floating-card card-3">
+            <div class="card-icon">R</div>
+            <div class="card-label">React</div>
+          </div>
+          <div class="floating-card card-4">
+            <div class="card-icon">N</div>
+            <div class="card-label">Node.js</div>
+          </div>
+          <div class="floating-card card-5">
+            <div class="card-icon">AI</div>
+            <div class="card-label">Artificial Intelligence</div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse"></div>
+      </div>
+    </section>
 
-        h1,
-        h2,
-        h3 {
-            width: 100%;
-            text-align: center;
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="lead">
+              I'm a passionate full-stack developer with over 7 years of
+              experience building scalable web applications using the MERN
+              stack.
+            </p>
+            <p>
+              Throughout my career, I've delivered high-quality solutions for
+              startups and enterprises, focusing on clean code, user experience,
+              and performance optimization. My expertise spans from crafting
+              intuitive frontends with React to building robust backends with
+              Node.js and Express.
+            </p>
+            <p>
+              Currently, I'm expanding my skill set into Artificial Intelligence
+              and Data Science, combining my strong development background with
+              cutting-edge ML technologies to create intelligent, data-driven
+              applications.
+            </p>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number" data-count="7">0</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-count="50">0</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-count="30">0</div>
+              <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-count="100">0</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        }
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>React.js</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="95"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript/ES6+</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5 & CSS3</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="95"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Redux</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="85"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        h3 {
-            animation: zoomin 1s linear infinite;
-        }
+          <div class="skill-category">
+            <h3>Backend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Node.js</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Express.js</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>MongoDB</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>REST APIs</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="95"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        @keyframes zoomin {
-            0% {
-                transform: scale(1);
-            }
+          <div class="skill-category">
+            <h3>AI & Data Science</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Python</span>
+                  <span class="skill-percentage">40%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="40"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Machine Learning</span>
+                  <span class="skill-percentage">15%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="15"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Data Analysis</span>
+                  <span class="skill-percentage">10%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="10"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            100% {
-                transform: scale(2.4);
-            }
+          <div class="skill-category">
+            <h3>Tools & Others</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Git & GitHub</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Docker</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="75"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>AWS/Cloud</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="70"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>CI/CD</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-progress="80"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        }
-    </style>
-</head>
+    <!-- <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2020 - Present</div>
+              <h3>Senior Full Stack Developer</h3>
+              <h4>Tech Company Inc.</h4>
+              <p>
+                Led development of enterprise-level MERN applications, mentored
+                junior developers, and implemented CI/CD pipelines that reduced
+                deployment time by 60%.
+              </p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">AWS</span>
+              </div>
+            </div>
+          </div>
 
-<body>
-    <h1>&#127968;</h1>
-    <h1>Maintenance in Progress</h1>
-    <h2>Please Come Back Later</h2>
-    <h3>&#9203;</h3>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2018 - 2020</div>
+              <h3>Full Stack Developer</h3>
+              <h4>Digital Solutions Ltd.</h4>
+              <p>
+                Built and maintained multiple client projects, integrated
+                third-party APIs, and optimized application performance
+                resulting in 40% faster load times.
+              </p>
+              <div class="tags">
+                <span class="tag">Express.js</span>
+                <span class="tag">React</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">Redux</span>
+              </div>
+            </div>
+          </div>
 
-</body>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2017 - 2018</div>
+              <h3>Full Stack Developer</h3>
+              <h4>Startup Ventures</h4>
+              <p>
+                Developed full-stack web applications from scratch, collaborated
+                with designers and product managers, and established coding
+                standards for the team.
+              </p>
+              <div class="tags">
+                <span class="tag">MERN Stack</span>
+                <span class="tag">Agile</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
+    <section id="journey" class="journey">
+      <div class="container">
+        <h2 class="section-title">AI & Data Science Journey</h2>
+        <div class="journey-content">
+          <div class="journey-text">
+            <h3>Embracing the Future of Technology</h3>
+            <p>
+              As a seasoned MERN stack developer, I recognized the
+              transformative potential of AI and Data Science in shaping the
+              future of software development. This realization sparked my
+              journey into this fascinating field.
+            </p>
+            <p>
+              I'm currently deepening my knowledge through structured learning,
+              hands-on projects, and real-world applications. My goal is to
+              bridge my extensive web development experience with AI
+              capabilities to create intelligent, data-driven solutions.
+            </p>
+            <div class="learning-areas">
+              <div class="learning-card">
+                <div class="learning-icon">🤖</div>
+                <h4>Machine Learning</h4>
+                <p>
+                  Supervised & unsupervised learning, neural networks, and model
+                  optimization
+                </p>
+              </div>
+              <div class="learning-card">
+                <div class="learning-icon">📊</div>
+                <h4>Data Analysis</h4>
+                <p>
+                  Data preprocessing, visualization, and statistical analysis
+                  with Python
+                </p>
+              </div>
+              <div class="learning-card">
+                <div class="learning-icon">🧠</div>
+                <h4>Deep Learning</h4>
+                <p>
+                  CNNs, RNNs, and implementing AI models with TensorFlow &
+                  PyTorch
+                </p>
+              </div>
+              <div class="learning-card">
+                <div class="learning-icon">💡</div>
+                <h4>NLP & Computer Vision</h4>
+                <p>
+                  Natural language processing and image recognition applications
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>
+              I'm always interested in hearing about new opportunities,
+              collaborations, or just having a chat about technology.
+            </p>
+            <div class="contact-methods">
+              <a href="mailto:guna.learn2016@gmail.com" class="contact-method">
+                <div class="method-icon">📧</div>
+                <div class="method-info">
+                  <div class="method-label">Email</div>
+                  <div class="method-value">guna.learn2016@gmail.com</div>
+                </div>
+              </a>
+              <a
+                href="https://linkedin.com/in/gunasekaran-t"
+                target="_blank"
+                class="contact-method"
+              >
+                <div class="method-icon">💼</div>
+                <div class="method-info">
+                  <div class="method-label">LinkedIn</div>
+                  <div class="method-value">linkedin.com/in/gunasekaran-t</div>
+                </div>
+              </a>
+              <a
+                href="https://github.com/gunaerode"
+                target="_blank"
+                class="contact-method"
+              >
+                <div class="method-icon">💻</div>
+                <div class="method-info">
+                  <div class="method-label">GitHub</div>
+                  <div class="method-value">github.com/gunaerode</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 MERN Developer. Crafted with passion and code.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
 </html>
